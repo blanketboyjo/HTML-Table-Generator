@@ -1,0 +1,48 @@
+<head>
+<style type="text/css" media="screen">
+#table{
+  border-collapse:collapse;
+  border:1px solid #d5d5d5;
+  border-radius = 20px;
+  color: #d5d5d5;
+  width: 100%;
+}
+
+#column{
+  border:1px 
+  solid #d5d5d5;
+  color:#d5d5d5;
+  border-radius: 5px;
+  font-size:16px;
+  height:50px;
+}
+
+h1{
+  color: #d5d5d5;
+  text-align: center;
+}
+
+a{
+  color :#d5d5d5;
+  font-size:14px;
+}
+
+</style>
+</head>
+
+<body>
+<h1> Parts Listing </h1>
+
+<table id = "table">
+  <tr>
+    <td id = "column"> Product </td>
+    <td id = "column"> Price </td>
+    <td id = "column"> Link </td>
+    <td id = "column"> Note </td>
+  </tr>
+  <tr>
+    <td id = "column"> rustler </td>
+    <td id = "column"> 109.99 </td>
+    <td id = "column"> <a style = "color: #a8aebb " href= "http://www.traxxas.com"> Link </a></td>    <td id = "column"> its an rc car </td>
+</table>
+</body>
